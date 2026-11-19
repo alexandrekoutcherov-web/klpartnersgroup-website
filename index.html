@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>KL Partners</title>
+<meta name="description" content="KL Partners: origination, structuring and distribution of private equity transactions for professional investors.">
+<meta property="og:title" content="KL Partners">
+<meta property="og:description" content="KL Partners: origination, structuring and distribution of private equity transactions for professional investors.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://klpartnersgroup.com/">
+<link rel="canonical" href="https://klpartnersgroup.com/">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<style>
+@font-face{font-family:"Inter";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/inter-latin-ext-400.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Inter";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/inter-latin-400.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Inter";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/inter-latin-ext-500.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Inter";font-style:normal;font-weight:500;font-display:swap;src:url(fonts/inter-latin-500.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Inter";font-style:normal;font-weight:600;font-display:swap;src:url(fonts/inter-latin-ext-600.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Inter";font-style:normal;font-weight:600;font-display:swap;src:url(fonts/inter-latin-600.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+/* Layout: one long page, left-aligned editorial grid; brand book rules — Inter only, uppercase SemiBold headings, tight tracking, off-white instead of white. */
+:root{
+  --bg:#F9FFFD; --surface:#EBF1EF; --ink:#111112; --ink-2:#2C2C2F; --muted:#5f6563; --line:#A9B1AE;
+  --gold:#D2B780; --copper:#A67453; --band:#2C2C2F; --band-fg:#F9FFFD; --band-muted:#9EA4A2;
+  --font:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#111112; --surface:#1c1c1e; --ink:#F0F6F4; --ink-2:#E7EDEB; --muted:#9EA4A2; --line:#3a3a3e;
+  --gold:#D2B780; --copper:#C08a66; --band:#1c1c1e; --band-fg:#F0F6F4; --band-muted:#9EA4A2; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#111112; --surface:#1c1c1e; --ink:#F0F6F4; --ink-2:#E7EDEB; --muted:#9EA4A2; --line:#3a3a3e;
+  --gold:#D2B780; --copper:#C08a66; --band:#1c1c1e; --band-fg:#F0F6F4; --band-muted:#9EA4A2; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.55;letter-spacing:-0.01em;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+@media(min-width:720px){.wrap{padding-left:max(40px,env(safe-area-inset-left,0px));padding-right:max(40px,env(safe-area-inset-right,0px))}}
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
+.logo{color:var(--ink);display:flex;align-items:center;gap:12px;text-decoration:none}
+.logo svg{width:clamp(48px,6vw,60px);height:auto;display:block}
+.logo span{font-weight:600;font-size:clamp(18px,2vw,22px);letter-spacing:-0.05em;line-height:1}
+.lang{display:flex;gap:4px}
+.lang button{font:500 13px/1 var(--font);letter-spacing:.04em;background:none;border:1px solid var(--line);color:var(--muted);padding:8px 10px;cursor:pointer}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.lang button:focus-visible,.btn:focus-visible{outline:2px solid var(--copper);outline-offset:2px}
+h1,h2,h3{font-weight:600;text-transform:uppercase;text-wrap:balance;margin:0}
+h1{font-size:clamp(34px,6.4vw,76px);line-height:1.0;letter-spacing:-0.03em;max-width:14ch}
+h2{font-size:clamp(26px,3.6vw,44px);line-height:1.05;letter-spacing:-0.03em}
+h3{font-size:15px;letter-spacing:-0.01em;line-height:1.2}
+.caption{font-size:13px;text-transform:lowercase;color:var(--muted);letter-spacing:-0.01em}
+.hero{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
+.hero .wrap{padding-block:clamp(56px,10vw,120px);display:grid;gap:28px}
+.hero p.lead{font-size:clamp(17px,1.6vw,20px);max-width:58ch;color:var(--ink-2);margin:0}
+.hero .shape{position:absolute;right:-6%;bottom:-18%;width:min(56vw,620px);color:var(--surface);pointer-events:none}
+.hero .shape svg{width:100%;height:auto;display:block}
+.hero .wrap>*{position:relative}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--ink);color:var(--bg);text-decoration:none;font-weight:500;font-size:15px;padding:14px 20px;width:max-content}
+.btn span{color:var(--gold)}
+section.block .wrap{padding-block:clamp(56px,8vw,96px);display:grid;gap:36px}
+@media(min-width:900px){section.block .wrap{grid-template-columns:minmax(0,4fr) minmax(0,8fr);gap:48px}}
+.grid3{display:grid;gap:1px;background:var(--line);border:1px solid var(--line)}
+@media(min-width:720px){.grid3{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.cell{background:var(--bg);padding:26px 24px;display:grid;gap:12px;align-content:start;min-width:0}
+.cell p{margin:0;color:var(--ink-2)}
+.cell .k{color:var(--copper);font-size:13px;font-weight:500;font-variant-numeric:tabular-nums}
+.band{background:var(--band);color:var(--band-fg)}
+.band .cell{background:var(--band)}
+.band .grid3{background:#3a3a3e;border-color:#3a3a3e}
+.band .cell p{color:var(--band-muted)}
+.band .k{color:var(--gold)}
+.list{display:grid;gap:0;border-top:1px solid var(--line)}
+.row{display:grid;gap:6px;padding-block:20px;border-bottom:1px solid var(--line)}
+@media(min-width:720px){.row{grid-template-columns:minmax(0,3fr) minmax(0,7fr);gap:24px}}
+.row p{margin:0;color:var(--ink-2)}
+.team{display:grid;gap:40px}
+@media(min-width:900px){.team{grid-template-columns:1fr 1fr}}
+.person{display:grid;gap:12px;align-content:start}
+.person .role{color:var(--copper);font-size:14px;font-weight:500}
+.person p{margin:0;color:var(--ink-2);max-width:62ch}
+.person a{color:var(--ink);font-size:14px;font-weight:500}
+.contact .wrap{padding-block:clamp(56px,8vw,96px);display:grid;gap:20px}
+.mail{font-size:clamp(22px,3.4vw,40px);font-weight:600;letter-spacing:-0.03em;color:var(--gold);word-break:break-word;user-select:all}
+.copy{font:500 13px var(--font);background:none;border:1px solid #5a5a5e;color:var(--band-fg);padding:8px 12px;cursor:pointer;width:max-content}
+footer .wrap{padding-block:36px;display:grid;gap:14px;font-size:13px;color:var(--muted)}
+footer p{margin:0;max-width:90ch}
+footer b{color:var(--ink-2);font-weight:500}
+@media (prefers-reduced-motion:no-preference){.hero h1,.hero .lead{animation:rise .7s ease-out both}.hero .lead{animation-delay:.08s}@keyframes rise{from{transform:translateY(10px)}to{transform:none}}}
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="#top" aria-label="KL Partners"><svg viewBox="0 0 276.414 132.959" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+<g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M276.062 43.677C274.686 53.7915 269.348 62.945 261.223 69.1238L237.925 38.4881L214.628 7.85236C222.753 1.67348 233 -1.02465 243.114 0.35154C253.229 1.72773 262.382 7.06549 268.561 15.1906C274.74 23.3157 277.438 33.5626 276.062 43.677ZM0 0.00016782H132.958L82.0853 66.6401L132.958 132.959H0V0.00016782ZM143.455 0.00016782H173.779L225.135 66.6401L276.414 132.959H143.455V0.00016782Z" fill="currentColor"/>
+</g>
+</svg>
+<span>KL Partners</span></a>
+  <div class="lang" role="group" aria-label="Language">
+    <button id="b-en" aria-pressed="true" data-l="en">EN</button><button id="b-fr" aria-pressed="false" data-l="fr">FR</button>
+  </div>
+</div></header>
+
+<main id="top">
+<div data-lang="en">
+  <section class="hero"><div class="shape" aria-hidden="true"><svg viewBox="0 0 276.414 132.959" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M276.062 43.677C274.686 53.7915 269.348 62.945 261.223 69.1238L237.925 38.4881L214.628 7.85236C222.753 1.67348 233 -1.02465 243.114 0.35154C253.229 1.72773 262.382 7.06549 268.561 15.1906C274.74 23.3157 277.438 33.5626 276.062 43.677ZM0 0.00016782H132.958L82.0853 66.6401L132.958 132.959H0V0.00016782ZM143.455 0.00016782H173.779L225.135 66.6401L276.414 132.959H143.455V0.00016782Z" fill="currentColor"/>
+</g>
+</svg>
+</div><div class="wrap">
+    <span class="caption">secondary &amp; pre-ipo transactions · advisory</span>
+    <h1>Access to private market transactions</h1>
+    <p class="lead">KL Partners is an independent boutique arranging secondary and pre-IPO transactions in leading private companies, and advising shareholders and investors on private market deals. Built on investment banking experience.</p>
+    <a class="btn" href="#contact">Contact us <span>→</span></a>
+  </div></section>
+
+  <section class="block"><div class="wrap">
+    <div><span class="caption">what we do</span><h2>Three activities, one focus: private companies</h2></div>
+    <div class="grid3">
+      <div class="cell"><h3>Secondary transactions</h3><p>We source and arrange the sale and purchase of shares in late-stage private companies, connecting existing shareholders (early investors, funds, founders and employees) with qualified buyers.</p></div>
+      <div class="cell"><h3>Pre-IPO access</h3><p>We give professional investors access to allocations in established private companies at the late private stage, through direct share purchases or dedicated investment vehicles.</p></div>
+      <div class="cell"><h3>Advisory</h3><p>We advise shareholders, companies and investors on liquidity options, transaction structuring and corporate finance matters linked to private market deals.</p></div>
+    </div>
+  </div></section>
+
+  <section class="block band"><div class="wrap">
+    <div><span class="caption" style="color:var(--band-muted)">how we work</span><h2>From origination to completion</h2></div>
+    <div class="grid3">
+      <div class="cell"><span class="k">01</span><h3>Origination</h3><p>We find opportunities through a network of funds, general partners, family offices and long-standing market relationships.</p></div>
+      <div class="cell"><span class="k">02</span><h3>Review and structuring</h3><p>We gather the information each side needs and help agree terms, documentation and the right holding structure.</p></div>
+      <div class="cell"><span class="k">03</span><h3>Execution</h3><p>We coordinate the transaction through to completion, alongside each party's legal counsel and settlement providers.</p></div>
+    </div>
+  </div></section>
+
+  <section class="block"><div class="wrap">
+    <div><span class="caption">who we work with</span><h2>Both sides of the market</h2></div>
+    <div class="list">
+      <div class="row"><h3>Investors</h3><p>Family offices, private banks, wealth managers, investment funds and professional private investors.</p></div>
+      <div class="row"><h3>Sellers</h3><p>Funds and general partners, early investors, founders and employees seeking liquidity.</p></div>
+      <div class="row"><h3>Partners</h3><p>Placement agents, introducers and other intermediaries we work alongside.</p></div>
+    </div>
+  </div></section>
+
+  <section class="block" style="background:var(--surface)"><div class="wrap">
+    <div><span class="caption">why kl partners</span><h2>How we are different</h2></div>
+    <div class="list">
+      <div class="row"><h3>Investment banking discipline</h3><p>Our founders spent their careers in senior roles at leading financial institutions, and bring that rigour to every transaction.</p></div>
+      <div class="row"><h3>Independence</h3><p>We are owned and run by our partners, and work with counterparties on both sides of the market.</p></div>
+      <div class="row"><h3>Discretion</h3><p>Private transactions depend on confidentiality. We treat every mandate accordingly.</p></div>
+      <div class="row"><h3>International reach</h3><p>A network built over decades in the leading financial centres of Europe and Asia.</p></div>
+    </div>
+  </div></section>
+
+
+  <section class="contact band" id="contact"><div class="wrap">
+    <span class="caption" style="color:var(--band-muted)">contact</span>
+    <h2>Investors, shareholders and partners</h2>
+    <div class="mail">contact@klpartnersgroup.com</div>
+    <button class="copy" type="button">Copy address</button>
+  </div></section>
+
+  <footer><div class="wrap">
+    <p>© 2026 KL Partners Limited, a company incorporated in Mauritius.</p>
+    <p><b>Important information.</b> This website is intended for professional investors only. It is for information purposes and does not constitute an offer to sell, or a solicitation of an offer to buy, any security or financial instrument. Investments in private companies carry a high level of risk, including the loss of the entire capital invested, and are typically illiquid.</p>
+    <p><b>Privacy.</b> This website uses no cookies and no tracking. If you contact us by email, we use your details only to reply to you.</p>
+  </div></footer>
+</div>
+
+<div data-lang="fr" hidden>
+  <section class="hero"><div class="shape" aria-hidden="true"><svg viewBox="0 0 276.414 132.959" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M276.062 43.677C274.686 53.7915 269.348 62.945 261.223 69.1238L237.925 38.4881L214.628 7.85236C222.753 1.67348 233 -1.02465 243.114 0.35154C253.229 1.72773 262.382 7.06549 268.561 15.1906C274.74 23.3157 277.438 33.5626 276.062 43.677ZM0 0.00016782H132.958L82.0853 66.6401L132.958 132.959H0V0.00016782ZM143.455 0.00016782H173.779L225.135 66.6401L276.414 132.959H143.455V0.00016782Z" fill="currentColor"/>
+</g>
+</svg>
+</div><div class="wrap">
+    <span class="caption">transactions secondaires &amp; pré-ipo · conseil</span>
+    <h1>L'accès aux transactions sur les marchés privés</h1>
+    <p class="lead">KL Partners est une boutique indépendante qui organise des transactions secondaires et pré-IPO sur des sociétés non cotées de premier plan, et conseille actionnaires et investisseurs sur leurs opérations en marchés privés. Fondée sur une expérience de banque d'investissement.</p>
+    <a class="btn" href="#contact-fr">Nous contacter <span>→</span></a>
+  </div></section>
+
+  <section class="block"><div class="wrap">
+    <div><span class="caption">nos activités</span><h2>Trois activités, un seul terrain : les sociétés non cotées</h2></div>
+    <div class="grid3">
+      <div class="cell"><h3>Transactions secondaires</h3><p>Nous identifions et organisons la cession et l'acquisition de titres de sociétés non cotées à un stade avancé de développement, en mettant en relation les actionnaires existants (premiers investisseurs, fonds, fondateurs et salariés) avec des acquéreurs qualifiés.</p></div>
+      <div class="cell"><h3>Accès pré-IPO</h3><p>Nous donnons aux investisseurs professionnels accès à des allocations dans des sociétés non cotées établies, à un stade avancé de leur développement, par acquisition directe de titres ou au travers de véhicules d'investissement dédiés.</p></div>
+      <div class="cell"><h3>Conseil</h3><p>Nous conseillons actionnaires, sociétés et investisseurs sur les solutions de liquidité, la structuration des transactions et les questions de finance d'entreprise liées aux opérations en marchés privés.</p></div>
+    </div>
+  </div></section>
+
+  <section class="block band"><div class="wrap">
+    <div><span class="caption" style="color:var(--band-muted)">notre approche</span><h2>De l'origination à la réalisation</h2></div>
+    <div class="grid3">
+      <div class="cell"><span class="k">01</span><h3>Origination</h3><p>Nous identifions les opportunités grâce à un réseau de fonds, de gérants, de family offices et à des relations de marché de longue date.</p></div>
+      <div class="cell"><span class="k">02</span><h3>Analyse et structuration</h3><p>Nous réunissons l'information nécessaire à chaque partie et aidons à convenir des conditions, de la documentation et de la structure de détention adaptée.</p></div>
+      <div class="cell"><span class="k">03</span><h3>Exécution</h3><p>Nous coordonnons la transaction jusqu'à sa réalisation, aux côtés des conseils juridiques et des prestataires de règlement de chaque partie.</p></div>
+    </div>
+  </div></section>
+
+  <section class="block"><div class="wrap">
+    <div><span class="caption">nos interlocuteurs</span><h2>Les deux côtés du marché</h2></div>
+    <div class="list">
+      <div class="row"><h3>Investisseurs</h3><p>Family offices, banques privées, gestionnaires de patrimoine, fonds d'investissement et investisseurs privés professionnels.</p></div>
+      <div class="row"><h3>Cédants</h3><p>Fonds et gérants, premiers investisseurs, fondateurs et salariés à la recherche de liquidité.</p></div>
+      <div class="row"><h3>Partenaires</h3><p>Agents de placement, apporteurs d'affaires et autres intermédiaires avec lesquels nous travaillons.</p></div>
+    </div>
+  </div></section>
+
+  <section class="block" style="background:var(--surface)"><div class="wrap">
+    <div><span class="caption">pourquoi kl partners</span><h2>Ce qui nous distingue</h2></div>
+    <div class="list">
+      <div class="row"><h3>La rigueur de la banque d'investissement</h3><p>Nos fondateurs ont occupé des fonctions de direction au sein de grandes institutions financières et appliquent cette exigence à chaque transaction.</p></div>
+      <div class="row"><h3>L'indépendance</h3><p>KL Partners est détenue et dirigée par ses associés, et travaille avec des contreparties des deux côtés du marché.</p></div>
+      <div class="row"><h3>La discrétion</h3><p>Les transactions privées reposent sur la confidentialité ; chaque mandat est traité en conséquence.</p></div>
+      <div class="row"><h3>Une présence internationale</h3><p>Un réseau construit en plusieurs décennies dans les grandes places financières d'Europe et d'Asie.</p></div>
+    </div>
+  </div></section>
+
+
+  <section class="contact band" id="contact-fr"><div class="wrap">
+    <span class="caption" style="color:var(--band-muted)">contact</span>
+    <h2>Investisseurs, actionnaires et partenaires</h2>
+    <div class="mail">contact@klpartnersgroup.com</div>
+    <button class="copy" type="button">Copier l'adresse</button>
+  </div></section>
+
+  <footer><div class="wrap">
+    <p>© 2026 KL Partners Limited, société constituée à l'île Maurice.</p>
+    <p><b>Informations importantes.</b> Ce site est destiné exclusivement aux investisseurs professionnels. Il est fourni à titre d'information et ne constitue ni une offre de vente ni une sollicitation d'offre d'achat de titres ou d'instruments financiers. L'investissement dans des sociétés non cotées comporte un risque élevé, y compris la perte totale du capital investi, et ces titres sont généralement peu liquides.</p>
+    <p><b>Confidentialité.</b> Ce site n'utilise ni cookies ni outils de suivi. Si vous nous contactez par e-mail, vos coordonnées ne sont utilisées que pour vous répondre.</p>
+  </div></footer>
+</div>
+</main>
+
+<script>
+(function(){
+  var btns=document.querySelectorAll('.lang button');
+  function setLang(l){
+    document.querySelectorAll('[data-lang]').forEach(function(el){el.hidden=el.getAttribute('data-lang')!==l;});
+    btns.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.l===l?'true':'false');});
+    document.documentElement.lang=l;
+    try{localStorage.setItem('klp-lang',l);}catch(e){}
+  }
+  btns.forEach(function(b){b.addEventListener('click',function(){setLang(b.dataset.l);});});
+  var saved=null; try{saved=localStorage.getItem('klp-lang');}catch(e){}
+  if(saved==='fr') setLang('fr');
+  document.querySelectorAll('.copy').forEach(function(btn){
+    btn.addEventListener('click',function(){
+      var t='contact@klpartnersgroup.com', orig=btn.textContent;
+      var done=function(){btn.textContent=document.documentElement.lang==='fr'?'Copié':'Copied';setTimeout(function(){btn.textContent=orig;},1500);};
+      if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(done,function(){});}
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
